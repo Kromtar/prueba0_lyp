@@ -12,10 +12,14 @@ public class Baraja {
     public Baraja() {
         cartas = new ArrayList<>();
         for(Numero numero: Numero.values()) {
-            for(Pinta pinta: Pinta.values()){
-                Carta carta = new Corazon(pinta, numero);
-                cartas.add(carta);
-            }
+            Carta carta1 = new Corazon(Pinta.CORAZON, numero);
+            Carta carta2 = new Espada(Pinta.ESPADA, numero);
+            Carta carta3 = new Trebol(Pinta.TREBOL, numero);
+            Carta carta4 = new Rombo(Pinta.ROMBO, numero);
+            cartas.add(carta1);
+            cartas.add(carta2);
+            cartas.add(carta3);
+            cartas.add(carta4);
 
             /*
                 Acá deben completar el constructor de forma de
