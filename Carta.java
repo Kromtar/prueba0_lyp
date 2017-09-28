@@ -7,10 +7,8 @@ public class Carta {
     protected Numero numero;
 
     public Carta(Pinta pinta, Numero numero) {
-        /*
-        Acá deben completar el código del constructor de forma que
-        se asignen los parámetros a las variables de instancia
-        */
+        this.pinta = pinta;
+        this.numero = numero;
     }
 
     public Pinta getPinta() {
