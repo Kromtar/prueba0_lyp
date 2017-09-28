@@ -1,3 +1,5 @@
+import cl.uai.prueba0_lyp.*;
+
 import java.util.Scanner;
 
 public class Main {
