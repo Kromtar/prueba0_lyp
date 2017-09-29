@@ -1,4 +1,4 @@
-package cl.uai.prueba0_lyp.pregunta1;
+package cl.uai.tics200.naipe;
 
 public class Rombo extends Carta {
     public Rombo(Numero numero){

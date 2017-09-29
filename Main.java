@@ -1,4 +1,4 @@
-import cl.uai.prueba0_lyp.pregunta1.*;
+import cl.uai.tics200.naipe.*;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package cl.uai.prueba0_lyp.pregunta1;
+package cl.uai.tics200.naipe;
 
 public class Trebol extends Carta {
     public Trebol(Numero numero){
