@@ -12,10 +12,10 @@ public class Baraja {
     public Baraja() {
         cartas = new ArrayList<>();
         for(Numero numero: Numero.values()) {
-            Carta carta1 = new Corazon(Pinta.CORAZON, numero);
-            Carta carta2 = new Espada(Pinta.ESPADA, numero);
-            Carta carta3 = new Trebol(Pinta.TREBOL, numero);
-            Carta carta4 = new Rombo(Pinta.ROMBO, numero);
+            Carta carta1 = new Corazon(numero);
+            Carta carta2 = new Espada(numero);
+            Carta carta3 = new Trebol(numero);
+            Carta carta4 = new Rombo(numero);
             cartas.add(carta1);
             cartas.add(carta2);
             cartas.add(carta3);
