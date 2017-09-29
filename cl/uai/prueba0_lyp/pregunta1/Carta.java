@@ -1,4 +1,4 @@
-package cl.uai.prueba0_lyp;
+package cl.uai.prueba0_lyp.pregunta1;
 
 public class Carta {
 

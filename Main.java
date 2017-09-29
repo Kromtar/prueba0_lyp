@@ -1,4 +1,4 @@
-import cl.uai.prueba0_lyp.*;
+import cl.uai.prueba0_lyp.pregunta1.*;
 
 import java.util.Scanner;
 
